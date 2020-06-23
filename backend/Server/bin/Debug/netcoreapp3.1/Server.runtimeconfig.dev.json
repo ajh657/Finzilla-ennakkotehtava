@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\hoyla\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\hoyla\\.nuget\\packages"
+    ]
+  }
+}
