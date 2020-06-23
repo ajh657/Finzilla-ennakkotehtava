@@ -35,3 +35,4 @@ D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3
 D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\obj\Debug\netcoreapp3.1\Server.csproj.CopyComplete
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

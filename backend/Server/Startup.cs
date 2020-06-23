@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -38,6 +39,9 @@ namespace Server
                 app.UseDeveloperExceptionPage();
             }
 
+            APIDBContext dbContext = app.ApplicationServices.GetService<APIDBContext>();
+            getNewUsers(dbContext);
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -48,6 +52,11 @@ namespace Server
             {
                 endpoints.MapControllers();
             });
+        }
+
+        public void getNewUsers(APIDBContext context)
+        {
+            var test = new DbModel.Customer { };
         }
     }
 }

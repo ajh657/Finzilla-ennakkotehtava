@@ -21,6 +21,7 @@ namespace Server.Controllers
         [HttpGet]
         public string getNewUserJson()
         {
+
             return null;
         }
     }
