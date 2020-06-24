@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace Server
 {
@@ -28,6 +29,7 @@ namespace Server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<APIDBContext>(opt => opt.UseInMemoryDatabase("Backend"));
+            
             services.AddControllers();
         }
 
@@ -39,9 +41,6 @@ namespace Server
                 app.UseDeveloperExceptionPage();
             }
 
-            APIDBContext dbContext = app.ApplicationServices.GetService<APIDBContext>();
-            getNewUsers(dbContext);
-
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -52,11 +51,6 @@ namespace Server
             {
                 endpoints.MapControllers();
             });
-        }
-
-        public void getNewUsers(APIDBContext context)
-        {
-            var test = new DbModel.Customer { };
         }
     }
 }

@@ -36,3 +36,17 @@ D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3
 D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\obj\Debug\netcoreapp3.1\Server.csproj.CopyComplete
 D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Finzilla-ennakkotehtava\backend\Server\obj\Debug\netcoreapp3.1\Server.MvcApplicationPartsAssemblyInfo.cache
