@@ -27,11 +27,26 @@ namespace Server.Controllers
                  },
              };
         }
-
+        //Hae uudet asiakkaat
         [HttpGet]
         public string getNewUserJson()
         {
             return JsonConvert.SerializeObject(dbContext.newCustomers.Local);
+        }
+        //tallentaa uden asiakkaan
+        [HttpPost]
+        public void Post([FromBody] string value)
+        {
+            Customer customer = JsonConvert.DeserializeObject<Customer>(value);
+            dbContext.savedCustomers.Add(customer);
+        }
+
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+            Customer customer = new Customer { Id = id };
+            dbContext.savedCustomers.Attach(customer);
+            dbContext.savedCustomers.Remove(customer);
         }
     }
 }
